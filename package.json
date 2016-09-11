@@ -1,0 +1,29 @@
+{
+  "name": "node-todo",
+  "version": "1.0.0",
+  "description": "simple todo application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhaskargogs/todo-mean.git"
+  },
+  "keywords": [
+    "todo"
+  ],
+  "author": "Bhaskar Gogoi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhaskargogs/todo-mean/issues"
+  },
+  "homepage": "https://github.com/bhaskargogs/todo-mean#readme",
+  "dependencies" : {
+    "express"    : "~4.13.2",
+    "mongoose"   : "~3.6.2",
+    "morgan"     : "~1.6.1",
+    "body-parser": "~1.14.1",
+    "method-override": "~2.3.5"
+  }
+}
